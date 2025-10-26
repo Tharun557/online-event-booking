@@ -1,0 +1,225 @@
+/* Reset and base styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 0.5rem;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Event List Grid */
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Event Card */
+.event-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card h2 {
+  color: #004aad;
+}
+
+.event-card p {
+  margin: 0.5rem 0;
+}
+
+.event-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #004aad;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.event-card a:hover {
+  background: #003080;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Event Detail Page */
+.event-detail {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.event-detail h2 {
+  color: #004aad;
+  margin-bottom: 1rem;
+}
+
+.event-detail p {
+  margin: 0.5rem 0;
+}
+
+.event-detail button {
+  margin-top: 1rem;
+  background: #004aad;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-detail button:hover {
+  background: #003080;
+}
+
+/* Booking Form */
+.booking-form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.booking-form-container h2 {
+  color: #004aad;
+  text-align: center;
+}
+
+.booking-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form-container label {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.booking-form-container input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.booking-form-container button {
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  background: #004aad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form-container button:hover {
+  background: #003080;
+}
+
+#confirmation-message {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+}
+/* Organizer Dashboard Styling */
+.dashboard-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-container h2 {
+  color: #004aad;
+  margin-bottom: 1rem;
+}
+
+.dashboard-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-container label {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.dashboard-container input,
+.dashboard-container textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.dashboard-container button {
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  background: #004aad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-container button:hover {
+  background: #003080;
+}
+
+#my-events-container {
+  margin-top: 1rem;
+}
+
+.my-event-card {
+  background: #f6f6f6;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 5px solid #004aad;
+}
+
