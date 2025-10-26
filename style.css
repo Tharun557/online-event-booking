@@ -8,7 +8,7 @@ body {
 
 /* Header */
 header {
-  background-color: #004aad;
+  background-color: #f2b661;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -38,7 +38,7 @@ header nav a:hover {
 
 /* Event Card */
 .event-card {
-  background: white;
+ background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 1rem;
